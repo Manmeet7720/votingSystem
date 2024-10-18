@@ -1,0 +1,126 @@
+/* Candidate.css */
+
+/* General table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    background-color: #f9f9f9;
+  }
+  
+  /* Table header styling */
+  table thead th {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  
+  /* Table body styling */
+  table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  /* Table cells padding */
+  table td, table th {
+    padding: 12px 15px;
+  }
+  
+  /* Candidate logo image */
+  td img {
+    width: 50px;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  /* Action buttons */
+  .btn-del, .link-edit {
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .btn-del {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-del:hover {
+    background-color: #c0392b;
+  }
+  
+  .link-edit {
+    background-color: #2ecc71;
+    color: white;
+    display: inline-block;
+  }
+  
+  .link-edit:hover {
+    background-color: #27ae60;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    table thead th, table tbody td {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .btn-del, .link-edit {
+      padding: 6px 8px;
+      font-size: 12px;
+    }
+  
+    td img {
+      width: 40px;
+    }
+  }
+  
+  /* Flexbox layout for the sidebar and content */
+  .flex-row {
+    display: flex;
+  }
+  
+  .flex-grow {
+    flex-grow: 1;
+  }
+  
+  .min-h-screen {
+    min-height: 100vh;
+  }
+  
+  .border-b {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Sidebar styling */
+  .sidebar {
+    width: 250px;
+    background-color: #2c3e50;
+    color: white;
+  }
+  
+  .sidebar .link-edit {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar .link-edit:hover {
+    background-color: #34495e;
+  }
+  

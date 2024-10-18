@@ -1,0 +1,28 @@
+.success-page {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .candidate-details {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .candidate-details img {
+    margin-top: 10px;
+  }
+  
+  .btn-logout {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-logout:hover {
+    background-color: #0056b3;
+  }
+  
